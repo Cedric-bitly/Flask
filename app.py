@@ -38,14 +38,12 @@ def calculate_simple_interest():
     time = 8
     
     simple_interest = (principal * rate * time) / 100
-    total_amount = principal + simple_interest
-    
+   
     return jsonify({
         'principal': principal,
         'rate': rate,
         'time': time,
-        'simple_interest': simple_interest,
-        'total_amount': total_amount
+        'simple_interest': simple_interest
     })
 
 
