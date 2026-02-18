@@ -39,12 +39,7 @@ def calculate_simple_interest():
     
     simple_interest = (principal * rate * time) / 100
    
-    return jsonify({
-        'principal': principal,
-        'rate': rate,
-        'time': time,
-        'simple_interest': simple_interest
-    })
+    return jsonify({"The Simple Interest is" :simple_interest})
 
 
 
